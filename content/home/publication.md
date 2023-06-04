@@ -7,14 +7,14 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 40
 
-title: Projects
+title: Publication
 subtitle: ''
 
 content:
   # Page type to display. E.g. project.
-  page_type: project
+  page_type: publication
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -25,14 +25,6 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
-      tag: '*'
-    - name: Software
-      tag: Software
-    - name: ML
-      tag: ML
-    - name: Graphics
-      tag: Graphics
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -43,7 +35,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 3
+  view: 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
