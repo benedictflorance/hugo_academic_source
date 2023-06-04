@@ -36,7 +36,7 @@ summary: Truthfulness prediction of LLM's responses using linguistic features.
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
